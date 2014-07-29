@@ -1,0 +1,1 @@
+copy and rename the web-XXXX.config file according to your version

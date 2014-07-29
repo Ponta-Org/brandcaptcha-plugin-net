@@ -1,0 +1,28 @@
+﻿@using Brandcaptcha;
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+ 
+    @Html.Raw(Html.GenerateCaptcha())   
+    
+    
+    <input type="submit" value="Submit"/>
+}
+
+@if(TempData.ContainsKey("CaptchaValid"))
+{
+    if((bool)TempData["CaptchaValid"])
+    {
+        @Html.Raw("Success")
+    }
+    else
+    {
+        @Html.Raw(TempData["CaptchaError"].ToString())
+    }
+}
+
+
+

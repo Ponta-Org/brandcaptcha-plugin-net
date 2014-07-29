@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brandcaptcha-CLR4", "library\Brandcaptcha-CLR4.csproj", "{7D501169-F895-4F94-BEF0-15671D065DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brandcaptcha.Test-CLR4", "test\Brandcaptcha.Test-CLR4.csproj", "{027EC450-3782-4806-A1FA-3D31F3DA7A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrandCaptcha.TestMVC-CLR4", "BrandCaptcha.TestMVC-CLR4\BrandCaptcha.TestMVC-CLR4.csproj", "{F8EC239F-73E1-4BE1-AC0E-9F702B64415D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D501169-F895-4F94-BEF0-15671D065DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D501169-F895-4F94-BEF0-15671D065DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D501169-F895-4F94-BEF0-15671D065DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D501169-F895-4F94-BEF0-15671D065DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027EC450-3782-4806-A1FA-3D31F3DA7A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027EC450-3782-4806-A1FA-3D31F3DA7A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027EC450-3782-4806-A1FA-3D31F3DA7A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027EC450-3782-4806-A1FA-3D31F3DA7A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EC239F-73E1-4BE1-AC0E-9F702B64415D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EC239F-73E1-4BE1-AC0E-9F702B64415D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EC239F-73E1-4BE1-AC0E-9F702B64415D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EC239F-73E1-4BE1-AC0E-9F702B64415D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
