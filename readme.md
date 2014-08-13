@@ -27,7 +27,7 @@ Then insert the BrandCAPTCHA control inside the `<form runat="server">` tag:
     />
 ```
 
-You will need to replace `your_public_key` and `your_private_key` with your public key and private key, or you can set them inside your configuration file.
+You will need to replace `your_public_key` and `your_private_key` values with the keys provided, or you can set them inside your configuration file.
 
 Be sure to use the ASP.NET validations to validate your form (check `Page.IsValid` on submit).
 
