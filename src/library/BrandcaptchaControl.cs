@@ -51,8 +51,8 @@ namespace Brandcaptcha
         private const string BRANDCAPTCHA_CHALLENGE_FIELD = "brand_cap_challenge";
         private const string BRANDCAPTCHA_RESPONSE_FIELD = "brand_cap_answer";
 
-        private const string BRANDCAPTCHA_SECURE_HOST = "https://api.pontamedia.net/";
-        private const string BRANDCAPTCHA_HOST = "http://api.pontamedia.net/";
+        private const string BRANDCAPTCHA_SECURE_HOST = "https://api.ponta.co/";
+        private const string BRANDCAPTCHA_HOST = "http://api.ponta.co/";
 
         private BrandcaptchaResponse _brandcaptchaResponse;
 
